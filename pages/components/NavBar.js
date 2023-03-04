@@ -53,7 +53,7 @@ function NavBar() {
             </div>
             <Nav.Link href="#connect" className={activeLink==='connect' ? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('connect')}>
             <button className='rounded' onClick={()=>onUpdateActiveLink('contact')}>
-                <span>Let's Connect</span>
+                <span>Lets Connect</span>
             </button>
             </Nav.Link> 
         </span>
