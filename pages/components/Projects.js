@@ -3,41 +3,32 @@ import Image from 'next/image'
 import {Col,Container,Tab,Row,Nav} from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import colorBG from "../assets/img/color-sharp2.png"
-import projImg1 from "../assets/img/Netflix.jpg"
+import projImg1 from "../assets/img/netflix.png"
 import projImg2 from "../assets/img/project-img2.png"
 import projImg3 from "../assets/img/project-img3.png"
 function Projects() {
-  const projects =[
+  const projects_React =[
     {
-        title: "Business Startup",
-        description: "Design & Development",
+        title: "Netflix",
+        description: "React Redux Firestore GoogleAuth",
         imgUrl: projImg1,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg2,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg3,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
+      },      
+  ];
+
+  const projects_Next =[
+    {
+        title: "Airbnb",
+        description: "React Redux Firestore GoogleAuth",
         imgUrl: projImg1,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg2,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg3,
-      }
+      },      
+  ];
+
+  const projects_reactNative =[
+    {
+        title: "Netflix",
+        description: "React Redux Firestore GoogleAuth",
+        imgUrl: projImg1,
+      },      
   ];
 
   return (
@@ -50,10 +41,10 @@ function Projects() {
           <Tab.Container id='projects-tabs' defaultActiveKey='first'>
           <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
             <Nav.Item>
-              <Nav.Link eventKey='first'>React & Next.js</Nav.Link>
+              <Nav.Link eventKey='first'>React </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="second">Java (Springboot)</Nav.Link>
+              <Nav.Link eventKey="second">Next.js</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="third"> React Native</Nav.Link>
@@ -64,7 +55,7 @@ function Projects() {
             <Tab.Pane eventKey='first'>
               <Row>
                 {
-                  projects.map((project,index)=>{
+                  projects_React.map((project,index)=>{
                     return(
                       <ProjectCard
                         key={index}
@@ -80,7 +71,7 @@ function Projects() {
 
                 <Row>
                   {
-                    projects.map((project,index)=>{
+                    projects_Next.map((project,index)=>{
                       return(
                         <ProjectCard
                           key={index}
@@ -97,7 +88,7 @@ function Projects() {
 
                 <Row>
                   {
-                    projects.map((project,index)=>{
+                    projects_reactNative.map((project,index)=>{
                       return(
                         <ProjectCard
                           key={index}
