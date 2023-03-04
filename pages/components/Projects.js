@@ -17,17 +17,13 @@ function Projects() {
 
   const projects_Next =[
     {
-        title: "Airbnb",
-        description: "React Redux Firestore GoogleAuth",
-        imgUrl: projImg1,
+        
       },      
   ];
 
   const projects_reactNative =[
     {
-        title: "Netflix",
-        description: "React Redux Firestore GoogleAuth",
-        imgUrl: projImg1,
+       
       },      
   ];
 
