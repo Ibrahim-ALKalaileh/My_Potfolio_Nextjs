@@ -355,13 +355,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills {
   width: 100%;
-  margin: 0 auto;
+  margin: 0 0;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
+  
 }
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
+  padding: 0px;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -369,7 +371,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -459,7 +461,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Form ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
