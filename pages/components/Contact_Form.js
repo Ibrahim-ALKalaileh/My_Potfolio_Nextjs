@@ -48,8 +48,11 @@ const Contact_Form = () => {
   };
 
   return (
+    
     <section className="contact" id="connect">
+      <div className="gradient"></div>
       <Container>
+      
         <Row className="align-items-center">
           <Col size={12} md={6}>
             <TrackVisibility>
@@ -97,7 +100,9 @@ const Contact_Form = () => {
             </TrackVisibility>
           </Col>
         </Row>
+        
       </Container>
+      
     </section>
   )
 }
