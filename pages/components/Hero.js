@@ -13,7 +13,7 @@ function Hero() {
             <Row className='align-items-center'>
                 <Col xs={12} md={6} xl={7}>
                     <span className="tagline">
-                    Hi, Im Ibrahim
+                    Hi, Im Ibrahim.
                     </span>
                     <h1>{`Full-Stack Web and Mobile Developer `} </h1>
                     <p> </p>
