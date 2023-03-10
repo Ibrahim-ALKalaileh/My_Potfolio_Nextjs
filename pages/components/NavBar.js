@@ -41,23 +41,25 @@ function NavBar() {
         <span className='navbar-toggler-icon'></span>
       </Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
+        <Nav className="me-auto ">
           <Nav.Link href="#home" className={activeLink==='home' ? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('home')}>Home</Nav.Link>
           <Nav.Link href="#skills" className={activeLink==='skills' ? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>  
           <Nav.Link href="#projects" className={activeLink==='projects' ? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>          
         </Nav>
-        <span className='navbar-text'>
+        
+        <span className='navbar-text navbar-button'>
             <div className='social-icon'>
                 <a href='https://www.linkedin.com/in/ibrahim-al-kalaileh-05845a1b4/'> <Image src={linkedin} alt="" /></a>
                 <a href='https://web.facebook.com/ibrahim.x.Ai.x'> <Image src={facebook} alt="" /></a>
                 <a href='https://github.com/Ibrahim-ALKalaileh'> <Image src={github} alt="" /></a>
             </div>
-            <Nav.Link href="#connect" className={activeLink==='connect' ? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('connect')}>
-            <button className='rounded' onClick={()=>onUpdateActiveLink('contact')}>
+            <Nav.Link href="#connect" className={activeLink==='connect' ? 'active navbar-link ': 'navbar-link '}  onClick={()=>onUpdateActiveLink('connect')}>
+            <button className='rounded navbar-button ' onClick={()=>onUpdateActiveLink('contact')}>
                 <span>Lets Connect</span>
             </button>
             </Nav.Link> 
         </span>
+        
       </Navbar.Collapse>
     </Container>
   </Navbar>
