@@ -310,7 +310,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 60px 10px;
   margin-top: -60px;
 }
 .skill h2 {
@@ -323,6 +323,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
+    color: #AA367C;
+}
+
+.skill_div{
+  width: 200px;
+}
+
+.skill img{
+  height: 50%;
+  width: 50%;
+}
+
+.skill_item{
+  padding-top: 50px;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
 }
 
 .background-image-left {

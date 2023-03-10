@@ -2,11 +2,69 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Image from 'next/image'
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+import react_img from "../assets/img/react.png"
+import node_img from "../assets/img/node.png"
+import graphQL_img from "../assets/img/graphql.png"
+import javascript_img from "../assets/img/javascript.png"
+import redux_img from "../assets/img/redux.png"
+import tailwind from "../assets/img/tailwind.png"
+import nextjs from "../assets/img/nextjs.png"
+import git_img from "../assets/img/git.png"
+import html_img from "../assets/img/html.png"
+import css_img from "../assets/img/css.png"
 import colorSharp from "../assets/img/color-sharp.png"
+import Skill from "./Skill";
+
+
 
 const Skills = () => {
+
+  const skills = [
+    {
+      name :"graphQL",
+      image:graphQL_img,
+    },
+    {
+      name :"node",
+      image:node_img,
+    },
+    {
+      name :"Javascript",
+      image:javascript_img,
+    },
+    {
+      name :"Redux",
+      image:redux_img,
+    },
+    {
+      name :"tailwindCSS",
+      image:tailwind,
+    },
+    {
+      name :"Nextjs",
+      image:nextjs,
+    },
+    {
+      name :"React",
+      image:react_img,
+    },
+    {
+      name :"Git",
+      image:git_img,
+    },
+    {
+      name :"HTML",
+      image:html_img,
+    },
+    {
+      name :"CSS",
+      image:css_img,
+    },
+
+  ]
+    
+  
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -28,13 +86,27 @@ const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill " id="skills">
         <div className="container" >
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="skill-bx wow zoomIn app__flex">
                         <h2>Skills</h2>
-                        <p><br></br> </p>
+                        <div className="skill_item">
+                        {
+                          skills.map((skill,index)=>{
+                            return(
+                            
+                            <Skill 
+                              key={index}
+                              {...skill}
+                            />)
+                            
+                          })
+                        }
+                        </div>
+                       
+                        
                         
                     </div>
                 </div>
