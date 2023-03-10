@@ -260,7 +260,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .hero h1 {
-  font-size: 65px;
+  font-size: 57px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -320,7 +320,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 15px;
-  width: 95%;
+  width: 100%;
   margin-top: -60px;
 }
 .skill h2 {
@@ -341,8 +341,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill img{
-  height: 40%;
-  width: 40%;
+  height: 30%;
+  width: 30%;
 }
 
 .skill_item{
