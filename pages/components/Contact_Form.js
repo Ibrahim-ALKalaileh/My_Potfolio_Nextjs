@@ -84,7 +84,7 @@ const Contact_Form = () => {
                     <Col size={12} sm={6} className="px-1">
                       <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                     </Col>
-                    <Col size={12} className="px-1">
+                    <Col size={12} xs={12} className="px-1 text-md-start text-center">
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit" className="rounded"><span>{buttonText}</span></button>
                     </Col>
