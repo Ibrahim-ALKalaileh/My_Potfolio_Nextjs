@@ -341,12 +341,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill img{
-  height: 45%;
-  width: 45%;
+  height: 40%;
+  width: 40%;
 }
 
 .skill_item{
-  padding-top: 50px;
+  padding-top: 70px;
   flex: 1;
   display: flex;
   flex-wrap: wrap;
