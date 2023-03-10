@@ -57,14 +57,14 @@ const Contact_Form = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <Image className={isVisible ? "animate__animated animate__fadeInUp " : ""} src={contactImg} alt="Contact Us"/>
+                <Image className={isVisible ? "animate__animated" : ""} src={contactImg} alt="Contact Us"/>
               }
             </TrackVisibility>
           </Col>
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                <div className={isVisible ? "animate__animated" : ""}>
                 <h2 >Get In Touch</h2>
                 <h5 ><RiMailSendLine/>&nbsp;  Ibrahim.Kalaileh@gmail.com</h5> <br/>
                 <br/>
