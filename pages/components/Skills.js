@@ -12,6 +12,8 @@ import nextjs from "../assets/img/nextjs.png"
 import git_img from "../assets/img/git.png"
 import html_img from "../assets/img/html.png"
 import css_img from "../assets/img/css.png"
+import docker_img from "../assets/img/docker.png"
+import reactnative_img from "../assets/img/reactnative.png"
 import colorSharp from "../assets/img/color-sharp.png"
 import Skill from "./Skill";
 
@@ -21,6 +23,18 @@ const Skills = () => {
 
   const skills = [
     {
+      name :"HTML",
+      image:html_img,
+    },
+    {
+      name :"CSS",
+      image:css_img,
+    },
+    {
+      name :"Javascript",
+      image:javascript_img,
+    },
+    {
       name :"graphQL",
       image:graphQL_img,
     },
@@ -28,10 +42,7 @@ const Skills = () => {
       name :"node",
       image:node_img,
     },
-    {
-      name :"Javascript",
-      image:javascript_img,
-    },
+    
     {
       name :"Redux",
       image:redux_img,
@@ -53,12 +64,12 @@ const Skills = () => {
       image:git_img,
     },
     {
-      name :"HTML",
-      image:html_img,
+      name :"React Native",
+      image:reactnative_img,
     },
     {
-      name :"CSS",
-      image:css_img,
+      name :"Docker",
+      image:docker_img,
     },
 
   ]
