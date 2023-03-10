@@ -319,7 +319,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 10px;
+  padding: 60px 15px;
+  width: 95%;
   margin-top: -60px;
 }
 .skill h2 {
