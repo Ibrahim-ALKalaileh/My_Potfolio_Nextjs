@@ -319,8 +319,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 15px;
-  width: 100%;
+  padding: 60px 10px;
+  width: 96%;
   margin-top: -60px;
 }
 .skill h2 {
@@ -341,8 +341,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill img{
-  height: 30%;
-  width: 30%;
+  height: 25%;
+  width: 25%;
 }
 
 .skill_item{
@@ -384,7 +384,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 100%;
+  width: 96%;
   margin: 0 0;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
