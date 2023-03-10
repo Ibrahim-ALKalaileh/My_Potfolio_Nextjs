@@ -35,11 +35,11 @@ const Skills = () => {
       image:javascript_img,
     },
     {
-      name :"graphQL",
+      name :"GraphQL",
       image:graphQL_img,
     },
     {
-      name :"node",
+      name :"Node",
       image:node_img,
     },
     
@@ -48,7 +48,7 @@ const Skills = () => {
       image:redux_img,
     },
     {
-      name :"tailwindCSS",
+      name :"TailwindCSS",
       image:tailwind,
     },
     {
