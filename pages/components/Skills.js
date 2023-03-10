@@ -100,7 +100,7 @@ const Skills = () => {
     <section className="skill " id="skills">
         <div className="container" >
             <div className="row">
-                <div className="col-12">
+                <div className="col-12" xs={12}>
                     <div className="skill-bx wow zoomIn app__flex">
                         <h2>Skills</h2>
                         <div className="skill_item">

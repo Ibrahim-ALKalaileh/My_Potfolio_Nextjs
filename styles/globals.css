@@ -319,8 +319,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 10px;
-  width: 96%;
+  padding: 60px 0px;
+  width: 100%;
   margin-top: -60px;
 }
 .skill h2 {
@@ -384,7 +384,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 96%;
+  width: 100%;
   margin: 0 0;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
