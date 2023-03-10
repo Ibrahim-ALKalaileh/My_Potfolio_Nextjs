@@ -11,11 +11,11 @@ function Hero() {
     <section className="hero" id='home'>
         <Container>
             <Row className='align-items-center'>
-                <Col xs={12} md={6} xl={7}>
-                    <span className="tagline">
+                <Col xs={12} md={6} xl={7} className="text-md-start text-center">
+                    <span className="tagline ">
                     Hi, Im Ibrahim
                     </span>
-                    <h1>{`Full-Stack Web and Mobile Developer `} </h1>
+                    <h1 className='text-md-start text-center'>{`Full-Stack Web and Mobile Developer `} </h1>
                     <p> </p>
                     
                 </Col>
