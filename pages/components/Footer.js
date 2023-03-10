@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from "../assets/img/logo.gif"
-import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import linkedin from '../assets/img/nav-icon1.svg'
+import facebook from '../assets/img/nav-icon2.svg'
+import github from '../assets/img/github.png'
 import {Container,Row,Col} from 'react-bootstrap'
 
 const Footer = () => {
@@ -17,9 +17,9 @@ const Footer = () => {
           </Col>
           <Col size={12} sm={6}  className="text-center text-sm-end text-">
             <div className="social-icon">
-              <a href="#"><Image src={navIcon1} alt="Icon" /></a>
-              <a href="#"><Image src={navIcon2} alt="Icon" /></a>
-              <a href="#"><Image src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/ibrahim-al-kalaileh-05845a1b4/"><Image src={linkedin} alt="Icon" /></a>
+              <a href="https://web.facebook.com/ibrahim.x.Ai.x"><Image src={facebook} alt="Icon" /></a>
+              <a href="https://github.com/Ibrahim-ALKalaileh"><Image src={github} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>

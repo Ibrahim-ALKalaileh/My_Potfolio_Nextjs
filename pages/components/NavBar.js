@@ -4,9 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState,useEffect } from 'react';
 import logo from '../assets/img/logo.gif'
-import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import linkedin from '../assets/img/nav-icon1.svg'
+import facebook from '../assets/img/nav-icon2.svg'
+import github from '../assets/img/github.png'
 import styles from './NavBar.module.css'
 
 function NavBar() {
@@ -48,9 +48,9 @@ function NavBar() {
         </Nav>
         <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='https://www.linkedin.com/in/ibrahim-al-kalaileh-05845a1b4/'> <Image src={navIcon1} alt="" /></a>
-                <a href='https://web.facebook.com/ibrahim.x.Ai.x'> <Image src={navIcon2} alt="" /></a>
-                <a href='#'> <Image src={navIcon3} alt="" /></a>
+                <a href='https://www.linkedin.com/in/ibrahim-al-kalaileh-05845a1b4/'> <Image src={linkedin} alt="" /></a>
+                <a href='https://web.facebook.com/ibrahim.x.Ai.x'> <Image src={facebook} alt="" /></a>
+                <a href='https://github.com/Ibrahim-ALKalaileh'> <Image src={github} alt="" /></a>
             </div>
             <Nav.Link href="#connect" className={activeLink==='connect' ? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('connect')}>
             <button className='rounded' onClick={()=>onUpdateActiveLink('contact')}>
