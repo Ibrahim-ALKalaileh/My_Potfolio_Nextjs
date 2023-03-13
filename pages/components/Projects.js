@@ -43,7 +43,7 @@ function Projects() {
               <Nav.Link eventKey="second">Next.js</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="third"> React Native</Nav.Link>
+              <Nav.Link eventKey="third"> React Native and node</Nav.Link>
             </Nav.Item>
           </Nav>
           <Tab.Content>
